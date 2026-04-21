@@ -39,7 +39,7 @@ test:
     - pip
 
 about:
-  summary: Python wrapper around the libsrtp library
+  summary: Python wrapper around the libsrtp (2) library
   license: BSD-3-Clause
   license_file: LICENSE
   home: https://github.com/aiortc/pylibsrtp
