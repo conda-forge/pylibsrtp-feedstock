@@ -5,12 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pylibsrtp/pylibsrtp-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/p/pylibsrtp/pylibsrtp-{{ version }}.tar.gz
   sha256: b39dff075b263a8ded5377f2490c60d2af452c9f06c4d061c7a2b640612b34d4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 2
 
 requirements:
   build:
