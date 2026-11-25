@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: pylibsrtp
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pylibsrtp/pylibsrtp-{{ version }}.tar.gz
-  sha256: b39dff075b263a8ded5377f2490c60d2af452c9f06c4d061c7a2b640612b34d4
+  sha256: e98d65f1bc3f1ac328bc78b19d2a38f6f01b922d2f0b8b68fc6371a6b79e07fe
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 4
+  number: 0
 
 requirements:
   build:
